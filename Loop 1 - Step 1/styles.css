@@ -1,0 +1,78 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #85A5D4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 40px 40px;
+  width: 1040px;
+  border-radius: 6px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .4);
+
+}
+
+.wrapper {
+  text-align: center;
+  width: 33%;
+  transition: all ease 0.5s;
+
+}
+
+.wrapper:hover {
+  background: #e9dfdf;
+
+}
+
+main img {
+  width: 70px;
+  height: auto;
+  object-fit: contain;
+}
+
+main h1 {
+  color: #5572D6;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: 700px;
+  line-height: normal;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+main p {
+  color: #817a7a;
+  margin-bottom: 20px;
+  line-height: 26px;
+}
+
+main sup {
+  color:#5572D6;
+  font-size: 20px;
+  font-weight: 700px;
+}
+
+/* main span {
+  color:#5572D6;
+  font-size: 35px;
+  font-weight: 700px;
+} */
+main .price {
+  font-size: 16px;
+  color: #5572D6;
+
+}
+
+main .price span {
+  font-size: 26px;
+  font-weight: 700;
+}
